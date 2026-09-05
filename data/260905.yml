@@ -7,7 +7,7 @@ about:
   head: 608e4ae
   archived: false
   latestVersion: rel-0.60.8.2
-  collectedAt: 2026-09-05T04:20:25Z
+  collectedAt: 2026-09-05T19:06:34Z
 timeline:
   created: 2016-12-11
   lastCommit: 2026-01-27
@@ -91,7 +91,7 @@ total:
   commit: 206
 ---
 path: /home/runner/.x-repo/github.com/GNUAspell/aspell
-collectedAt: 2026-09-05T04:20:26Z
+collectedAt: 2026-09-05T19:06:35Z
 loc:
   ReScript:
     code: 27857
