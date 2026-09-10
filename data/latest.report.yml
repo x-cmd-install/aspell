@@ -7,7 +7,7 @@ about:
   latestVersion: "rel-0.60.8.2"
   latestRelease: "rel-0.60.8.2"
   latestPrerelease: "rel-0.60.8-20190921"
-  collectedAt: 2026-09-10T20:22:00Z
+  collectedAt: 2026-09-10T23:29:03Z
 timeline:
   created: 2016-12-11
   lastCommit: 2026-01-27
@@ -93,7 +93,7 @@ total:
   commit: 206
 ---
 path: /home/runner/.x-repo/github.com/GNUAspell/aspell
-collectedAt: 2026-09-10T20:22:03Z
+collectedAt: 2026-09-10T23:29:05Z
 loc:
   ReScript:
     code: 27857
