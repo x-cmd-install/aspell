@@ -2,42 +2,13 @@
 
 [English version](./README.md)
 
-![aspell](https://repo.x-cmd.io/aspell.svg)
+![aspell](https://repo.x-cmd.io/aspell.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install aspell
 ```
-
-## 源代码
-
-- **上游仓库**: <https://github.com/GNUAspell/aspell>
-- **官网**: <http://aspell.net>
-- **许可证**: LGPL-2.1
-
-## 发布
-
-- **最新版本**: `rel-0.60.8.2` (2026-01-27)
-- **最近提交**: 2026-01-27
-- **Release 含资产**: 1 个
-- **发布时间**: 2026-01-27T18:42:35Z
-
-## 流行度
-
-- **Star**: 280 · **Fork**: 62 · **开放 issue**: 617 · **贡献者**: 12
-
-## 累计统计
-
-- **发布数**: 6 · **已合并 PR**: 23 · **开放 PR**: 20 · **已关闭 issue**: 457 · **开放 issue**: 160 · **提交数**: 206
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 7 | 0 | 1 | 0 |
-| 360d | 2025-09-15 | 1 | 0 | 7 | 2 | 6 | 14 |
 
 ## 代码规模
 
@@ -51,6 +22,62 @@ x install aspell
 | Perl | 2,115 | 214 | 370 | 24 |
 | C | 1,481 | 201 | 265 | 8 |
 
+## 源代码
+
+- **上游仓库**: <https://github.com/GNUAspell/aspell>
+- **官网**: <http://aspell.net>
+- **许可证**: LGPL-2.1
+
+## 发布
+
+- **最新版本**: `rel-0.60.8.2` (2026-01-27)
+- **最近提交**: 2026-01-27
+- **Release 含资产**: 1 个
+
+## 流行度
+
+- **Star**: 280 · **Fork**: 63 · **开放 issue**: 617 · **贡献者**: 12
+
+## 累计统计
+
+- **发布数**: 6 · **已合并 PR**: 23 · **开放 PR**: 20 · **已关闭 issue**: 457 · **开放 issue**: 160 · **提交数**: 206
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 7 | 0 | 1 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 7 | 0 | 4 | 0 |
+| 360d | 2025-09-15 | 1 | 0 | 7 | 2 | 6 | 14 |
+| last720d | 2024-09-20 | 1 | 1 | 8 | 7 | 15 | 17 |
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [aspell-0.60.8.2.tar.gz](https://github.com/GNUAspell/aspell/releases/download/rel-0.60.8.2/aspell-0.60.8.2.tar.gz) | 3.4 MiB | `native/unknown` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/aspell) 上共有 **251** 个发行版报告此项目。**86** 个 ✅ 已是最新上游版本，**155** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.60.8.2` | ✅ latest |
+| Debian 14 | `0.60.8.2` | ✅ latest |
+| Debian 13 | `0.60.8.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.60.8.2` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.60.8.1` | ⚠️ outdated |
+| Arch | `0.60.8.2` | ✅ latest |
+| Homebrew | `0.60.8.2` | ✅ latest |
+| Fedora rawhide | `0.60.8.1` | ⚠️ outdated |
+| Nix unstable | `0.60.8.2` | ✅ latest |
+| Void | `0.60.8.2` | ✅ latest |
+| Alpine edge | `0.60.8.2` | ✅ latest |
+| openSUSE Tumbleweed | `0.60.8.2` | ✅ latest |
+
 ## 改进这些数据
 
 aspell 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `aspell` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -60,4 +87,4 @@ aspell 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:56:44Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:22:09Z._
