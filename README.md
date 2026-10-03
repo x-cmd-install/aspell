@@ -36,22 +36,22 @@ Total: **58,036** lines of code across **199** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 279 · **Forks**: 64 · **Open issues**: 618 · **Contributors**: 12
+- **Stars**: 279 · **Forks**: 63 · **Open issues**: 618 · **Contributors**: 12
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 23 · **Open PRs**: 20 · **Closed issues**: 457 · **Open issues**: 161 · **Commits**: 207
+- **Releases**: 6 · **Merged PRs**: 23 · **Open PRs**: 19 · **Closed issues**: 458 · **Open issues**: 160 · **Commits**: 207
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 0 | 0 | 0 | 0 | 1 | 1 |
-| last60d | 2026-08-02 | 0 | 0 | 0 | 0 | 1 | 1 |
-| 90d | 2026-07-03 | 0 | 0 | 4 | 0 | 2 | 1 |
-| last180d | 2026-04-04 | 0 | 0 | 7 | 0 | 5 | 1 |
-| 360d | 2025-10-06 | 1 | 0 | 7 | 1 | 7 | 15 |
-| last720d | 2024-10-11 | 1 | 1 | 8 | 7 | 16 | 18 |
+| 30d | 2026-09-03 | 0 | 0 | 0 | 0 | 1 | 1 |
+| last60d | 2026-08-04 | 0 | 0 | 0 | 0 | 1 | 1 |
+| 90d | 2026-07-05 | 0 | 0 | 3 | 0 | 2 | 1 |
+| last180d | 2026-04-06 | 0 | 0 | 6 | 0 | 5 | 1 |
+| 360d | 2025-10-08 | 1 | 0 | 6 | 2 | 6 | 15 |
+| last720d | 2024-10-13 | 1 | 1 | 7 | 8 | 15 | 18 |
 
 ## Release assets
 
@@ -68,4 +68,4 @@ Install metadata for aspell lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T06:55:26Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T06:14:14Z._
