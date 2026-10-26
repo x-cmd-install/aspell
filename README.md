@@ -12,12 +12,12 @@ x install aspell
 
 ## Code insight
 
-Total: **57,328** lines of code across **208** files in the top 5 languages.
+Total: **57,339** lines of code across **208** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | ReScript | 27,857 | 0 | 0 | 25 |
-| Cpp | 18,616 | 2,070 | 3,285 | 60 |
+| Cpp | 18,627 | 2,074 | 3,285 | 60 |
 | CppHeader | 5,613 | 1,076 | 1,440 | 82 |
 | Perl | 2,115 | 214 | 370 | 24 |
 | Autoconf | 990 | 90 | 144 | 17 |
@@ -31,7 +31,7 @@ Total: **57,328** lines of code across **208** files in the top 5 languages.
 ## Release
 
 - **Latest**: `rel-0.60.8.2` (2026-01-27)
-- **Last commit**: 2026-10-06
+- **Last commit**: 2026-10-21
 - **Assets in release**: 1
 
 ## Popularity
@@ -40,18 +40,18 @@ Total: **57,328** lines of code across **208** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 23 · **Open PRs**: 17 · **Closed issues**: 459 · **Open issues**: 159 · **Commits**: 219
+- **Releases**: 6 · **Merged PRs**: 23 · **Open PRs**: 15 · **Closed issues**: 459 · **Open issues**: 159 · **Commits**: 223
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 0 | 4 | 0 | 0 | 1 |
-| last60d | 2026-08-26 | 0 | 0 | 4 | 0 | 1 | 13 |
-| 90d | 2026-07-27 | 0 | 0 | 4 | 0 | 1 | 13 |
-| last180d | 2026-04-28 | 0 | 0 | 4 | 1 | 2 | 13 |
-| 360d | 2025-10-30 | 1 | 0 | 4 | 2 | 5 | 27 |
-| last720d | 2024-11-04 | 1 | 1 | 5 | 9 | 14 | 30 |
+| 30d | 2026-09-26 | 0 | 0 | 2 | 0 | 0 | 5 |
+| last60d | 2026-08-27 | 0 | 0 | 2 | 0 | 1 | 17 |
+| 90d | 2026-07-28 | 0 | 0 | 2 | 0 | 1 | 17 |
+| last180d | 2026-04-29 | 0 | 0 | 2 | 1 | 2 | 17 |
+| 360d | 2025-10-31 | 1 | 0 | 2 | 2 | 5 | 31 |
+| last720d | 2024-11-05 | 1 | 1 | 3 | 9 | 13 | 34 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for aspell lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:33:41Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:36:52Z._
