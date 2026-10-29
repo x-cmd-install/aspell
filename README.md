@@ -30,53 +30,53 @@ Total: **57,339** lines of code across **208** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `rel-0.60.8.2` (2026-01-27)
-- **Last commit**: 2026-10-21
+- **Latest**: `rel-0.60.8.3` (2026-10-29)
+- **Last commit**: 2026-10-28
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 279 · **Forks**: 62 · **Open issues**: 618 · **Contributors**: 13
+- **Stars**: 279 · **Forks**: 63 · **Open issues**: 618 · **Contributors**: 13
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 23 · **Open PRs**: 16 · **Closed issues**: 459 · **Open issues**: 159 · **Commits**: 223
+- **Releases**: 7 · **Merged PRs**: 23 · **Open PRs**: 16 · **Closed issues**: 459 · **Open issues**: 159 · **Commits**: 225
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 0 | 0 | 3 | 0 | 0 | 5 |
-| last60d | 2026-08-29 | 0 | 0 | 3 | 0 | 1 | 17 |
-| 90d | 2026-07-30 | 0 | 0 | 3 | 0 | 1 | 17 |
-| last180d | 2026-05-01 | 0 | 0 | 3 | 1 | 2 | 17 |
-| 360d | 2025-11-02 | 1 | 0 | 3 | 2 | 5 | 31 |
-| last720d | 2024-11-07 | 1 | 1 | 4 | 9 | 13 | 34 |
+| 30d | 2026-09-29 | 1 | 0 | 3 | 0 | 0 | 7 |
+| last60d | 2026-08-30 | 1 | 0 | 3 | 0 | 1 | 19 |
+| 90d | 2026-07-31 | 1 | 0 | 3 | 0 | 1 | 19 |
+| last180d | 2026-05-02 | 1 | 0 | 3 | 1 | 2 | 19 |
+| 360d | 2025-11-03 | 2 | 0 | 3 | 2 | 5 | 33 |
+| last720d | 2024-11-08 | 2 | 1 | 4 | 9 | 13 | 36 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [aspell-0.60.8.2.tar.gz](https://github.com/GNUAspell/aspell/releases/download/rel-0.60.8.2/aspell-0.60.8.2.tar.gz) | 3.4 MiB | `native/unknown` |
+| [aspell-0.60.8.3.tar.gz](https://github.com/GNUAspell/aspell/releases/download/rel-0.60.8.3/aspell-0.60.8.3.tar.gz) | 3.4 MiB | `native/unknown` |
 
 ## Distribution status
 
-Reported by **246** distros on [repology.org](https://repology.org/project/aspell). **86** are ✅ on the latest upstream release, **150** are ⚠️ on an older version.
+Reported by **249** distros on [repology.org](https://repology.org/project/aspell). **5** are ✅ on the latest upstream release, **234** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.60.8.2` | ✅ latest |
-| Debian 14 | `0.60.8.2` | ✅ latest |
+| Debian unstable | `0.60.8.2` | ⚠️ outdated |
+| Debian 14 | `0.60.8.2` | ⚠️ outdated |
 | Debian 13 | `0.60.8.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.60.8.2` | ✅ latest |
+| Ubuntu 26.04 LTS | `0.60.8.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.60.8.1` | ⚠️ outdated |
-| Arch | `0.60.8.2` | ✅ latest |
-| Homebrew | `0.60.8.2` | ✅ latest |
+| Arch | `0.60.8.2` | ⚠️ outdated |
+| Homebrew | `0.60.8.2` | ⚠️ outdated |
 | Fedora rawhide | `0.60.8.1` | ⚠️ outdated |
-| Nix unstable | `0.60.8.2` | ✅ latest |
-| Void | `0.60.8.2` | ✅ latest |
-| Alpine edge | `0.60.8.2` | ✅ latest |
-| openSUSE Tumbleweed | `0.60.8.2` | ✅ latest |
+| Nix unstable | `0.60.8.2` | ⚠️ outdated |
+| Void | `0.60.8.2` | ⚠️ outdated |
+| Alpine edge | `0.60.8.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.60.8.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -87,4 +87,4 @@ Install metadata for aspell lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:39:37Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:44:29Z._
