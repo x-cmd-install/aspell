@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/GNUAspell/aspell/releases/280420726",
-  "assets_url": "https://api.github.com/repos/GNUAspell/aspell/releases/280420726/assets",
-  "upload_url": "https://uploads.github.com/repos/GNUAspell/aspell/releases/280420726/assets{?name,label}",
-  "html_url": "https://github.com/GNUAspell/aspell/releases/tag/rel-0.60.8.2",
-  "id": 280420726,
+  "url": "https://api.github.com/repos/GNUAspell/aspell/releases/427411809",
+  "assets_url": "https://api.github.com/repos/GNUAspell/aspell/releases/427411809/assets",
+  "upload_url": "https://uploads.github.com/repos/GNUAspell/aspell/releases/427411809/assets{?name,label}",
+  "html_url": "https://github.com/GNUAspell/aspell/releases/tag/rel-0.60.8.3",
+  "id": 427411809,
   "author": {
     "login": "kevina",
     "id": 1271492,
@@ -25,22 +25,22 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBIoBOc4QtuF2",
-  "tag_name": "rel-0.60.8.2",
+  "node_id": "RE_kwDOBIoBOc4Zeclh",
+  "tag_name": "rel-0.60.8.3",
   "target_commitish": "master",
-  "name": "0.60.8.2",
+  "name": "0.60.8.3",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-01-27T18:35:32Z",
-  "updated_at": "2026-01-27T18:42:35Z",
-  "published_at": "2026-01-27T18:42:35Z",
+  "created_at": "2026-10-28T22:07:57Z",
+  "updated_at": "2026-10-29T02:52:12Z",
+  "published_at": "2026-10-29T02:51:37Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/GNUAspell/aspell/releases/assets/346754275",
-      "id": 346754275,
-      "node_id": "RA_kwDOBIoBOc4Uqwzj",
-      "name": "aspell-0.60.8.2.tar.gz",
+      "url": "https://api.github.com/repos/GNUAspell/aspell/releases/assets/687145300",
+      "id": 687145300,
+      "node_id": "RA_kwDOBIoBOc4o9QFU",
+      "name": "aspell-0.60.8.3.tar.gz",
       "label": null,
       "uploader": {
         "login": "kevina",
@@ -65,15 +65,15 @@
       },
       "content_type": "application/gzip",
       "state": "uploaded",
-      "size": 3582264,
-      "digest": "sha256:57fe4863eae6048f72245a8575b44b718fb85ca14b9f8c0afc41b254dfd76919",
-      "download_count": 92,
-      "created_at": "2026-01-27T18:42:12Z",
-      "updated_at": "2026-01-27T18:42:13Z",
-      "browser_download_url": "https://github.com/GNUAspell/aspell/releases/download/rel-0.60.8.2/aspell-0.60.8.2.tar.gz"
+      "size": 3616417,
+      "digest": "sha256:0534eae11132405120d11e46bf595bd5dd189bc124ba77a5dd6aae861b48a162",
+      "download_count": 1,
+      "created_at": "2026-10-29T02:48:47Z",
+      "updated_at": "2026-10-29T02:48:47Z",
+      "browser_download_url": "https://github.com/GNUAspell/aspell/releases/download/rel-0.60.8.3/aspell-0.60.8.3.tar.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/GNUAspell/aspell/tarball/rel-0.60.8.2",
-  "zipball_url": "https://api.github.com/repos/GNUAspell/aspell/zipball/rel-0.60.8.2",
-  "body": "Changes from 0.60.8.1 to 0.60.8.2\r\n\r\n*  Improved compiler compatibility: Fixed Clang -Wstrict-prototypes warnings for C interface, fixed new Clang warnings, fixed GCC 15 build issues, and added MSYS2 + MINGW64 compile fixes.\r\n* Enhanced testing infrastructure with newer compiler versions, including snapshots from both GCC and Clang, to catch future problems before they make their way into distros.\r\n* Fixed bug that caused aspell_speller_store_replacement to return random values.\r\n* Fixed typo in Texinfo filter option file.\r\n* Various documentation updates and fixes.\r\n"
+  "tarball_url": "https://api.github.com/repos/GNUAspell/aspell/tarball/rel-0.60.8.3",
+  "zipball_url": "https://api.github.com/repos/GNUAspell/aspell/zipball/rel-0.60.8.3",
+  "body": "Changes from 0.60.8.2 to 0.60.8.3:\r\n\r\n* Fix CVE-2026-75818, CVE-2026-75819, and CVE-2026-75820, all of which were identified by Michał Majchrowicz and Marcin Wyczechowski, members of the AFINE Team.\r\n* Fix CVE-2026-103658 identified by Anthropic and validated by Ada Logics.\r\n* Fix various other memory problems, most of which were found and fixed by Arshiya Tabasum.\r\n* Fix various typos in documentation.\r\n* Remove unused MySpell example code.\r\n"
 }
