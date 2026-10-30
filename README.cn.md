@@ -36,7 +36,7 @@ x install aspell
 
 ## 流行度
 
-- **Star**: 279 · **Fork**: 63 · **开放 issue**: 618 · **贡献者**: 13
+- **Star**: 279 · **Fork**: 62 · **开放 issue**: 618 · **贡献者**: 13
 
 ## 累计统计
 
@@ -46,12 +46,12 @@ x install aspell
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 0 | 3 | 0 | 0 | 7 |
-| last60d | 2026-08-30 | 1 | 0 | 3 | 0 | 1 | 19 |
-| 90d | 2026-07-31 | 1 | 0 | 3 | 0 | 1 | 19 |
-| last180d | 2026-05-02 | 1 | 0 | 3 | 1 | 2 | 19 |
-| 360d | 2025-11-03 | 2 | 0 | 3 | 2 | 5 | 33 |
-| last720d | 2024-11-08 | 2 | 1 | 4 | 9 | 13 | 36 |
+| 30d | 2026-09-30 | 1 | 0 | 3 | 0 | 0 | 7 |
+| last60d | 2026-08-31 | 1 | 0 | 3 | 0 | 1 | 19 |
+| 90d | 2026-08-01 | 1 | 0 | 3 | 0 | 1 | 19 |
+| last180d | 2026-05-03 | 1 | 0 | 3 | 1 | 2 | 19 |
+| 360d | 2025-11-04 | 2 | 0 | 3 | 2 | 5 | 33 |
+| last720d | 2024-11-09 | 2 | 1 | 4 | 9 | 13 | 36 |
 
 ## Release 资产
 
@@ -61,7 +61,7 @@ x install aspell
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/aspell) 上共有 **249** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**234** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/aspell) 上共有 **248** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**222** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -70,8 +70,8 @@ x install aspell
 | Debian 13 | `0.60.8.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.60.8.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.60.8.1` | ⚠️ outdated |
-| Arch | `0.60.8.2` | ⚠️ outdated |
-| Homebrew | `0.60.8.2` | ⚠️ outdated |
+| Arch | `0.60.8.3` | ✅ latest |
+| Homebrew | `0.60.8.3` | ✅ latest |
 | Fedora rawhide | `0.60.8.1` | ⚠️ outdated |
 | Nix unstable | `0.60.8.2` | ⚠️ outdated |
 | Void | `0.60.8.2` | ⚠️ outdated |
@@ -87,4 +87,4 @@ aspell 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261029.yml` · 2026-10-29T06:44:29Z._
+_数据快照: `data/card/261030.yml` · 2026-10-30T06:45:43Z._
