@@ -7,7 +7,7 @@ about:
   latestVersion: "rel-0.60.8.3"
   latestRelease: "rel-0.60.8.3"
   latestPrerelease: "rel-0.60.8-20190921"
-  collectedAt: 2026-10-29T06:44:07Z
+  collectedAt: 2026-10-30T06:45:32Z
 timeline:
   created: 2016-12-11
   lastCommit: 2026-10-28
@@ -17,7 +17,7 @@ timeline:
 popularity:
   star: 279
   watcher: 9
-  fork: 63
+  fork: 62
   release: 7
   contributor: 13
   pullRequest: 74
@@ -37,7 +37,7 @@ language:
 totalBytes: 3774882
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 1
     mergedPR: 0
     openPR: 3
@@ -45,7 +45,7 @@ recent:
     openIssue: 0
     commit: 7
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 1
     mergedPR: 0
     openPR: 3
@@ -53,7 +53,7 @@ recent:
     openIssue: 1
     commit: 19
   last90d:
-    since: 2026-07-31
+    since: 2026-08-01
     release: 1
     mergedPR: 0
     openPR: 3
@@ -61,7 +61,7 @@ recent:
     openIssue: 1
     commit: 19
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 1
     mergedPR: 0
     openPR: 3
@@ -69,7 +69,7 @@ recent:
     openIssue: 2
     commit: 19
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 2
     mergedPR: 0
     openPR: 3
@@ -77,7 +77,7 @@ recent:
     openIssue: 5
     commit: 33
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 2
     mergedPR: 1
     openPR: 4
@@ -93,7 +93,7 @@ total:
   commit: 225
 ---
 path: /home/runner/.x-repo/github.com/GNUAspell/aspell
-collectedAt: 2026-10-29T06:44:22Z
+collectedAt: 2026-10-30T06:45:34Z
 loc:
   ReScript:
     code: 27857
