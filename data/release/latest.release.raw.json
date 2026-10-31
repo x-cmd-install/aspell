@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3616417,
       "digest": "sha256:0534eae11132405120d11e46bf595bd5dd189bc124ba77a5dd6aae861b48a162",
-      "download_count": 1,
+      "download_count": 5,
       "created_at": "2026-10-29T02:48:47Z",
       "updated_at": "2026-10-29T02:48:47Z",
       "browser_download_url": "https://github.com/GNUAspell/aspell/releases/download/rel-0.60.8.3/aspell-0.60.8.3.tar.gz"
