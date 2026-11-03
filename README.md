@@ -40,18 +40,18 @@ Total: **57,339** lines of code across **208** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 23 · **Open PRs**: 16 · **Closed issues**: 459 · **Open issues**: 159 · **Commits**: 226
+- **Releases**: 7 · **Merged PRs**: 23 · **Open PRs**: 18 · **Closed issues**: 459 · **Open issues**: 159 · **Commits**: 226
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 0 | 3 | 0 | 0 | 7 |
-| last60d | 2026-09-03 | 1 | 0 | 3 | 0 | 1 | 20 |
-| 90d | 2026-08-04 | 1 | 0 | 3 | 0 | 1 | 20 |
-| last180d | 2026-05-06 | 1 | 0 | 3 | 1 | 2 | 20 |
-| 360d | 2025-11-07 | 2 | 0 | 3 | 2 | 5 | 34 |
-| last720d | 2024-11-12 | 2 | 1 | 4 | 9 | 13 | 37 |
+| 30d | 2026-10-04 | 1 | 0 | 5 | 0 | 0 | 7 |
+| last60d | 2026-09-04 | 1 | 0 | 5 | 0 | 1 | 20 |
+| 90d | 2026-08-05 | 1 | 0 | 5 | 0 | 1 | 20 |
+| last180d | 2026-05-07 | 1 | 0 | 5 | 1 | 2 | 20 |
+| 360d | 2025-11-08 | 2 | 0 | 5 | 2 | 5 | 34 |
+| last720d | 2024-11-13 | 2 | 1 | 6 | 9 | 13 | 37 |
 
 ## Release assets
 
@@ -61,18 +61,18 @@ Total: **57,339** lines of code across **208** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **251** distros on [repology.org](https://repology.org/project/aspell). **24** are ✅ on the latest upstream release, **217** are ⚠️ on an older version.
+Reported by **251** distros on [repology.org](https://repology.org/project/aspell). **27** are ✅ on the latest upstream release, **213** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.60.8.2` | ⚠️ outdated |
+| Debian unstable | `0.60.8.2` | 🪦 legacy |
 | Debian 14 | `0.60.8.2` | ⚠️ outdated |
 | Debian 13 | `0.60.8.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.60.8.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.60.8.1` | ⚠️ outdated |
 | Arch | `0.60.8.3` | ✅ latest |
 | Homebrew | `0.60.8.3` | ✅ latest |
-| Fedora rawhide | `0.60.8.1` | ⚠️ outdated |
+| Fedora rawhide | `0.60.8.3` | ✅ latest |
 | Nix unstable | `0.60.8.2` | ⚠️ outdated |
 | Void | `0.60.8.2` | ⚠️ outdated |
 | Alpine edge | `0.60.8.2` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for aspell lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:05:45Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:54:19Z._
