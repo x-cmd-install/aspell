@@ -1,20 +1,3 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: aspell
-  binnames:
-    - aspell
-    - aspell-doc
-    - libaspell15
-    - libaspell-dev
-    - libpspell-dev
-  visiblename: aspell
-  version: 0.60.8.3
-  origversion: 0.60.8.3-1
-  status: newest
-  maintainers:
-    - agmartin@debian.org
-  categories:
-    - text
 - repo: adelie_current
   subrepo: user
   srcname: aspell
@@ -93,13 +76,6 @@
     - sheila@vulpine.house
   licenses:
     - LGPL-2.0+
-- repo: aix_osp
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.6.1
-  origversion: 0.60.6.1-1
-  status: outdated
-  vulnerable: true
 - repo: alpine_3_20
   subrepo: main
   srcname: aspell
@@ -243,6 +219,23 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.1-or-later
+- repo: kali_rolling
+  subrepo: main
+  srcname: aspell
+  binnames:
+    - aspell
+    - aspell-doc
+    - libaspell15
+    - libaspell-dev
+    - libpspell-dev
+  visiblename: aspell
+  version: 0.60.8.2
+  origversion: 0.60.8.2-3
+  status: outdated
+  maintainers:
+    - agmartin@debian.org
+  categories:
+    - text
 - repo: alpine_3_21
   subrepo: main
   srcname: aspell
@@ -269,120 +262,123 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.1-or-later
-- repo: crux_38
-  subrepo: opt
+- repo: alpine_3_21
+  subrepo: main
   srcname: aspell
+  binname: aspell-utils
+  visiblename: aspell-utils
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: aspell misc utils
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: aspell
+  binname: aspell
+  visiblename: aspell
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: A spell checker designed to eventually replace Ispell
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: aspell
+  binname: aspell-compat
+  visiblename: aspell-compat
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: aspell compatibility scripts for ispell and unix spell
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: aspell
+  binname: aspell-dev
+  visiblename: aspell-dev
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: A spell checker designed to eventually replace Ispell (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: aspell
+  binname: aspell-doc
+  visiblename: aspell-doc
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: A spell checker designed to eventually replace Ispell (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: aspell
+  binname: aspell-lang
+  visiblename: aspell-lang
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: Languages for package aspell
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: aspell
+  binname: aspell-libs
+  visiblename: aspell-libs
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: A spell checker designed to eventually replace Ispell (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: aspell
+  binname: aspell-utils
+  visiblename: aspell-utils
+  version: 0.60.8.1
+  origversion: 0.60.8.1-r0
+  status: outdated
+  summary: aspell misc utils
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: kaos
+  subrepo: main
+  srcname: aspell
+  binname: aspell
   visiblename: aspell
   version: 0.60.8.3
-  origversion: null
+  origversion: 0.60.8.3-1
   status: newest
-  summary: GNU aspell is a spell checker designed to replace ispell
-  maintainers:
-    - jue@crux.nu
-- repo: alpine_3_21
-  subrepo: main
-  srcname: aspell
-  binname: aspell-utils
-  visiblename: aspell-utils
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
-  summary: aspell misc utils
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: aspell
-  binname: aspell
-  visiblename: aspell
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
   summary: A spell checker designed to eventually replace Ispell
   maintainers:
-    - ncopa@alpinelinux.org
+    - demm@kaosx.us
   licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: aspell
-  binname: aspell-compat
-  visiblename: aspell-compat
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
-  summary: aspell compatibility scripts for ispell and unix spell
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: aspell
-  binname: aspell-dev
-  visiblename: aspell-dev
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
-  summary: A spell checker designed to eventually replace Ispell (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: aspell
-  binname: aspell-doc
-  visiblename: aspell-doc
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
-  summary: A spell checker designed to eventually replace Ispell (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: aspell
-  binname: aspell-lang
-  visiblename: aspell-lang
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
-  summary: Languages for package aspell
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: aspell
-  binname: aspell-libs
-  visiblename: aspell-libs
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
-  summary: A spell checker designed to eventually replace Ispell (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: aspell
-  binname: aspell-utils
-  visiblename: aspell-utils
-  version: 0.60.8.1
-  origversion: 0.60.8.1-r0
-  status: outdated
-  summary: aspell misc utils
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
+    - LGPL
 - repo: alpine_3_23
   subrepo: main
   srcname: aspell
@@ -643,6 +639,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.1-or-later
+- repo: nix_stable_25_11
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.8.1
+  origversion: null
+  status: outdated
+  summary: Spell checker for many languages
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - LGPL-2.0-or-later
 - repo: alpine_edge
   subrepo: main
   srcname: aspell
@@ -744,6 +751,17 @@
     - chocobo1@aur
   licenses:
     - LGPL-2.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: aspell
+  binname: aspell-doc
+  visiblename: aspell-doc
+  version: 0.60.8.2
+  origversion: 0.60.8.2-r0
+  status: outdated
+  summary: Spell checker with good multi-language support (documentation)
+  licenses:
+    - LGPL-2.1-only
 - repo: artix
   subrepo: world
   srcname: aspell
@@ -841,17 +859,6 @@
 - repo: chimera
   subrepo: main
   srcname: aspell
-  binname: aspell-doc
-  visiblename: aspell-doc
-  version: 0.60.8.2
-  origversion: 0.60.8.2-r0
-  status: outdated
-  summary: Spell checker with good multi-language support (documentation)
-  licenses:
-    - LGPL-2.1-only
-- repo: chimera
-  subrepo: main
-  srcname: aspell
   binname: aspell-libs
   visiblename: aspell-libs
   version: 0.60.8.2
@@ -898,6 +905,16 @@
   version: 0.60.8.1
   origversion: null
   status: outdated
+  summary: GNU aspell is a spell checker designed to replace ispell
+  maintainers:
+    - jue@crux.nu
+- repo: crux_38
+  subrepo: opt
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.8.3
+  origversion: null
+  status: newest
   summary: GNU aspell is a spell checker designed to replace ispell
   maintainers:
     - jue@crux.nu
@@ -1023,6 +1040,23 @@
   status: outdated
   maintainers:
     - agmartin@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: aspell
+  binnames:
+    - aspell
+    - aspell-doc
+    - libaspell15
+    - libaspell-dev
+    - libpspell-dev
+  visiblename: aspell
+  version: 0.60.8.3
+  origversion: 0.60.8.3-1
+  status: newest
+  maintainers:
+    - agmartin@debian.org
+  categories:
+    - text
 - repo: exherbo
   subrepo: arbor
   srcname: app-spell/aspell
@@ -1183,36 +1217,6 @@
   version: 0.60.8.2
   origversion: null
   status: outdated
-- repo: kali_rolling
-  subrepo: main
-  srcname: aspell
-  binnames:
-    - aspell
-    - aspell-doc
-    - libaspell15
-    - libaspell-dev
-    - libpspell-dev
-  visiblename: aspell
-  version: 0.60.8.2
-  origversion: 0.60.8.2-3
-  status: outdated
-  maintainers:
-    - agmartin@debian.org
-  categories:
-    - text
-- repo: kaos
-  subrepo: main
-  srcname: aspell
-  binname: aspell
-  visiblename: aspell
-  version: 0.60.8.3
-  origversion: 0.60.8.3-1
-  status: newest
-  summary: A spell checker designed to eventually replace Ispell
-  maintainers:
-    - demm@kaosx.us
-  licenses:
-    - LGPL
 - repo: liguros_stable
   srcname: app-text/aspell
   visiblename: app-text/aspell
@@ -1288,7 +1292,7 @@
     - LGPL
   categories:
     - Text tools
-- repo: manjaro_unstable
+- repo: manjaro_stable
   subrepo: extra
   srcname: aspell
   binname: aspell
@@ -1299,6 +1303,34 @@
   summary: A spell checker designed to eventually replace Ispell
   licenses:
     - LGPL-2.0-or-later AND LGPL-2.1-only AND GPL-2.0-or-later AND BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: aspell
+  binname: aspell
+  visiblename: aspell
+  version: 0.60.8.3
+  origversion: 0.60.8.3-1
+  status: newest
+  summary: A spell checker designed to eventually replace Ispell
+  licenses:
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - GPL-2.0-or-later
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: aspell
+  binname: aspell
+  visiblename: aspell
+  version: 0.60.8.3
+  origversion: 0.60.8.3-1
+  status: newest
+  summary: A spell checker designed to eventually replace Ispell
+  licenses:
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - GPL-2.0-or-later
+    - BSD-2-Clause
 - repo: msys2_clang64
   srcname: mingw-w64-aspell
   binname: mingw-w64-clang-x86_64-aspell
@@ -1322,19 +1354,6 @@
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: aspell
-  binname: aspell
-  visiblename: aspell
-  version: 0.60.8.3
-  origversion: 0.60.8.3-1
-  status: newest
-  summary: A Free and Open Source spell checker (libraries)
-  licenses:
-    - spdx:LGPL-2.0-or-later AND LGPL-2.1-only AND GPL-2.0-or-later AND BSD-2-Clause
-  categories:
-    - libraries
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: aspell
   binname: aspell-devel
   visiblename: aspell-devel
   version: 0.60.8.3
@@ -1345,6 +1364,19 @@
     - spdx:LGPL-2.0-or-later AND LGPL-2.1-only AND GPL-2.0-or-later AND BSD-2-Clause
   categories:
     - development
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: aspell
+  binname: aspell
+  visiblename: aspell
+  version: 0.60.8.3
+  origversion: 0.60.8.3-1
+  status: newest
+  summary: A Free and Open Source spell checker (libraries)
+  licenses:
+    - spdx:LGPL-2.0-or-later AND LGPL-2.1-only AND GPL-2.0-or-later AND BSD-2-Clause
+  categories:
+    - libraries
 - repo: msys2_ucrt64
   srcname: mingw-w64-aspell
   binname: mingw-w64-ucrt-x86_64-aspell
@@ -1378,17 +1410,6 @@
   licenses:
     - LGPL-2.0-or-later
 - repo: nix_stable_25_05
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.8.1
-  origversion: null
-  status: outdated
-  summary: Spell checker for many languages
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - LGPL-2.0-or-later
-- repo: nix_stable_25_11
   srcname: aspell
   visiblename: aspell
   version: 0.60.8.1
@@ -1660,17 +1681,6 @@
     - LGPL
   categories:
     - Text tools
-- repo: openpkg_current
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.8.1
-  origversion: null
-  status: outdated
-  summary: Interactive Spell Checker
-  licenses:
-    - GPL
-  categories:
-    - Writing
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: aspell
@@ -2033,6 +2043,23 @@
     - agmartin@debian.org
   categories:
     - text
+- repo: ubuntu_27_04
+  subrepo: tenacious/main
+  srcname: aspell
+  binnames:
+    - aspell
+    - aspell-doc
+    - libaspell15
+    - libaspell-dev
+    - libpspell-dev
+  visiblename: aspell
+  version: 0.60.8.2
+  origversion: 0.60.8.2-5
+  status: outdated
+  maintainers:
+    - agmartin@debian.org
+  categories:
+    - text
 - repo: void_x86_64
   subrepo: x86_64
   srcname: aspell
@@ -2091,6 +2118,35 @@
   summary: free software spell checker
   licenses:
     - GNU Lesser General Public License, version 2.1 or later
+- repo: aix_osp
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.6
+  origversion: 0.60.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.6.1
+  origversion: 0.60.6.1-1
+  status: outdated
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.6.1
+  origversion: 12:0.60.6.1-22.el8
+  status: outdated
+  summary: Spell checker
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
+  categories:
+    - Applications/Text
+  vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
   srcname: aspell
@@ -2116,7 +2172,7 @@
     - aspell
   visiblename: aspell
   version: 0.60.8
-  origversion: 12:0.60.8-9.el9_8
+  origversion: 12:0.60.8-8.el9
   status: outdated
   summary: Spell checker
   maintainers:
@@ -2125,78 +2181,6 @@
     - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
   categories:
     - Unspecified
-  vulnerable: true
-- repo: centos_7
-  subrepo: os
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.6.1
-  origversion: 12:0.60.6.1-9.el7
-  status: outdated
-  summary: Spell checker
-  licenses:
-    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
-  categories:
-    - Applications/Text
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: aspell
-  binnames:
-    - aspell
-    - aspell-doc
-    - libaspell15
-    - libaspell-dev
-    - libpspell-dev
-  visiblename: aspell
-  version: 0.60.8
-  origversion: 0.60.8-3
-  status: outdated
-  maintainers:
-    - agmartin@debian.org
-  categories:
-    - text
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.6.1
-  origversion: 12:0.60.6.1-21.el8
-  status: outdated
-  summary: Spell checker
-  licenses:
-    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
-  categories:
-    - Applications/Text
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.6.1
-  origversion: 12:0.60.6.1-22.el8
-  status: outdated
-  summary: Spell checker
-  licenses:
-    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
-  categories:
-    - Applications/Text
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.6.1
-  origversion: 12:0.60.6.1-22.el8
-  status: outdated
-  summary: Spell checker
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
-  categories:
-    - Applications/Text
   vulnerable: true
 - repo: almalinux_9
   subrepo: CRB
@@ -2208,7 +2192,7 @@
     - aspell
   visiblename: aspell
   version: 0.60.8
-  origversion: 12:0.60.8-8.el9
+  origversion: 12:0.60.8-9.el9_8
   status: outdated
   summary: Spell checker
   maintainers:
@@ -2218,13 +2202,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: aix_osp
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.6
-  origversion: 0.60.6-1
-  status: legacy
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: aspell
@@ -2519,36 +2496,23 @@
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
-- repo: eurolinux_9
-  subrepo: powertools
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: aspell
   binnames:
     - aspell
-    - aspell-devel
-    - aspell-debuginfo
-    - aspell-debugsource
+    - aspell-doc
+    - libaspell-dev
+    - libaspell15
+    - libpspell-dev
   visiblename: aspell
   version: 0.60.8
-  origversion: 12:0.60.8-8.el9
+  origversion: 0.60.8-3
   status: outdated
-  summary: Spell checker
-  licenses:
-    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
+  maintainers:
+    - agmartin@debian.org
   categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: aspell
-  visiblename: aspell
-  version: 0.60.8
-  origversion: 0.60.8-3.3.1
-  status: outdated
-  summary: A Spell Checker
-  licenses:
-    - GFDL-1.1-or-later AND LGPL-2.1-only AND HPND AND SUSE-BSD-Mark-Modifications
-  categories:
-    - Productivity/Text/Spell
+    - text
   vulnerable: true
 - repo: alt_p11
   srcname: aspell
@@ -2706,6 +2670,19 @@
   categories:
     - Applications/Text
   vulnerable: true
+- repo: centos_7
+  subrepo: os
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.6.1
+  origversion: 12:0.60.6.1-9.el7
+  status: outdated
+  summary: Spell checker
+  licenses:
+    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
+  categories:
+    - Applications/Text
+  vulnerable: true
 - repo: centos_8
   subrepo: AppStream
   srcname: aspell
@@ -2843,6 +2820,68 @@
   maintainers:
     - agmartin@debian.org
   vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: aspell
+  binnames:
+    - aspell
+    - aspell-doc
+    - libaspell15
+    - libaspell-dev
+    - libpspell-dev
+  visiblename: aspell
+  version: 0.60.8
+  origversion: 0.60.8-3
+  status: outdated
+  maintainers:
+    - agmartin@debian.org
+  categories:
+    - text
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.6.1
+  origversion: 12:0.60.6.1-21.el8
+  status: outdated
+  summary: Spell checker
+  licenses:
+    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
+  categories:
+    - Applications/Text
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.6.1
+  origversion: 12:0.60.6.1-22.el8
+  status: outdated
+  summary: Spell checker
+  licenses:
+    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
+  categories:
+    - Applications/Text
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: powertools
+  srcname: aspell
+  binnames:
+    - aspell
+    - aspell-devel
+    - aspell-debuginfo
+    - aspell-debugsource
+  visiblename: aspell
+  version: 0.60.8
+  origversion: 12:0.60.8-8.el9
+  status: outdated
+  summary: Spell checker
+  licenses:
+    - LGPLv2+ and LGPLv2 and GPLv2+ and BSD
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: fedora_39
   subrepo: release
   srcname: aspell
@@ -2966,30 +3005,6 @@
     - LGPL
   categories:
     - Text tools
-  vulnerable: true
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: aspell
-  binname: aspell
-  visiblename: aspell
-  version: 0.60.8
-  origversion: 0.60.8-3
-  status: outdated
-  summary: A spell checker designed to eventually replace Ispell
-  licenses:
-    - LGPL
-  vulnerable: true
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: aspell
-  binname: aspell
-  visiblename: aspell
-  version: 0.60.8
-  origversion: 0.60.8-3
-  status: outdated
-  summary: A spell checker designed to eventually replace Ispell
-  licenses:
-    - LGPL
   vulnerable: true
 - repo: npackd_stable
   srcname: net.aspell.Aspell
@@ -3117,6 +3132,19 @@
   categories:
     - text
   vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: aspell
+  visiblename: aspell
+  version: 0.60.8
+  origversion: 0.60.8-3.3.1
+  status: outdated
+  summary: A Spell Checker
+  licenses:
+    - GFDL-1.1-or-later AND LGPL-2.1-only AND HPND AND SUSE-BSD-Mark-Modifications
+  categories:
+    - Productivity/Text/Spell
+  vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: aspell
@@ -3185,24 +3213,6 @@
   visiblename: aspell
   version: 0.60.7~20110707
   origversion: 0.60.7~20110707-6+deb10u1
-  status: outdated
-  maintainers:
-    - agmartin@debian.org
-  categories:
-    - text
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: aspell
-  binnames:
-    - aspell
-    - aspell-doc
-    - libaspell-dev
-    - libaspell15
-    - libpspell-dev
-  visiblename: aspell
-  version: 0.60.8
-  origversion: 0.60.8-3
   status: outdated
   maintainers:
     - agmartin@debian.org
@@ -3378,25 +3388,6 @@
     - text
   vulnerable: true
 - repo: ubuntu_16_04
-  subrepo: xenial-updates/main
-  srcname: aspell
-  binnames:
-    - aspell
-    - aspell-doc
-    - libaspell15
-    - libaspell-dev
-    - libpspell-dev
-  visiblename: aspell
-  version: 0.60.7~20110707
-  origversion: 0.60.7~20110707-3ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - agmartin@debian.org
-  categories:
-    - text
-  vulnerable: true
-- repo: ubuntu_16_04
   subrepo: xenial/main
   srcname: aspell
   binnames:
@@ -3411,6 +3402,25 @@
   status: outdated
   maintainers:
     - pyro@debian.org
+    - agmartin@debian.org
+  categories:
+    - text
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
+  srcname: aspell
+  binnames:
+    - aspell
+    - aspell-doc
+    - libaspell15
+    - libaspell-dev
+    - libpspell-dev
+  visiblename: aspell
+  version: 0.60.7~20110707
+  origversion: 0.60.7~20110707-3ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - agmartin@debian.org
   categories:
     - text
@@ -3454,24 +3464,6 @@
     - text
   vulnerable: true
 - repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: aspell
-  binnames:
-    - aspell
-    - aspell-doc
-    - libaspell15
-    - libaspell-dev
-    - libpspell-dev
-  visiblename: aspell
-  version: 0.60.8
-  origversion: 0.60.8-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - text
-  vulnerable: true
-- repo: ubuntu_20_04
   subrepo: focal/main
   srcname: aspell
   binnames:
@@ -3486,6 +3478,24 @@
   status: outdated
   maintainers:
     - agmartin@debian.org
+  categories:
+    - text
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: aspell
+  binnames:
+    - aspell
+    - aspell-doc
+    - libaspell15
+    - libaspell-dev
+    - libpspell-dev
+  visiblename: aspell
+  version: 0.60.8
+  origversion: 0.60.8-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - text
   vulnerable: true
