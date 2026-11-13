@@ -46,12 +46,12 @@ Total: **57,339** lines of code across **208** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 1 | 0 | 7 | 0 | 0 | 5 |
-| last60d | 2026-09-13 | 1 | 0 | 8 | 0 | 1 | 20 |
-| 90d | 2026-08-14 | 1 | 0 | 8 | 0 | 1 | 20 |
-| last180d | 2026-05-16 | 1 | 0 | 8 | 1 | 2 | 20 |
-| 360d | 2025-11-17 | 2 | 0 | 8 | 2 | 5 | 34 |
-| last720d | 2024-11-22 | 2 | 1 | 9 | 9 | 13 | 37 |
+| 30d | 2026-10-14 | 1 | 0 | 7 | 0 | 0 | 5 |
+| last60d | 2026-09-14 | 1 | 0 | 8 | 0 | 1 | 20 |
+| 90d | 2026-08-15 | 1 | 0 | 8 | 0 | 1 | 20 |
+| last180d | 2026-05-17 | 1 | 0 | 8 | 1 | 2 | 20 |
+| 360d | 2025-11-18 | 2 | 0 | 8 | 2 | 5 | 34 |
+| last720d | 2024-11-23 | 2 | 1 | 9 | 9 | 13 | 37 |
 
 ## Release assets
 
@@ -61,7 +61,7 @@ Total: **57,339** lines of code across **208** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **252** distros on [repology.org](https://repology.org/project/aspell). **45** are ✅ on the latest upstream release, **197** are ⚠️ on an older version.
+Reported by **252** distros on [repology.org](https://repology.org/project/aspell). **46** are ✅ on the latest upstream release, **196** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for aspell lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T08:45:11Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:53:47Z._
