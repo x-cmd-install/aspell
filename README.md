@@ -46,37 +46,18 @@ Total: **57,339** lines of code across **208** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 0 | 10 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 1 | 0 | 11 | 0 | 0 | 8 |
-| 90d | 2026-08-26 | 1 | 0 | 11 | 0 | 1 | 20 |
-| last180d | 2026-05-28 | 1 | 0 | 11 | 1 | 2 | 20 |
-| 360d | 2025-11-29 | 2 | 0 | 11 | 1 | 5 | 34 |
-| last720d | 2024-12-04 | 2 | 1 | 12 | 7 | 13 | 37 |
+| 30d | 2026-10-26 | 1 | 0 | 9 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 1 | 0 | 11 | 0 | 0 | 8 |
+| 90d | 2026-08-27 | 1 | 0 | 11 | 0 | 1 | 20 |
+| last180d | 2026-05-29 | 1 | 0 | 11 | 1 | 2 | 20 |
+| 360d | 2025-11-30 | 2 | 0 | 11 | 1 | 5 | 34 |
+| last720d | 2024-12-05 | 2 | 1 | 12 | 7 | 13 | 37 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [aspell-0.60.8.3.tar.gz](https://github.com/GNUAspell/aspell/releases/download/rel-0.60.8.3/aspell-0.60.8.3.tar.gz) | 3.4 MiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **249** distros on [repology.org](https://repology.org/project/aspell). **54** are ✅ on the latest upstream release, **185** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.60.8.3` | ✅ latest |
-| Debian 14 | `0.60.8.3` | ✅ latest |
-| Debian 13 | `0.60.8.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.60.8.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.60.8.1` | ⚠️ outdated |
-| Arch | `0.60.8.3` | ✅ latest |
-| Homebrew | `0.60.8.3` | ✅ latest |
-| Fedora rawhide | `0.60.8.3` | ✅ latest |
-| Nix unstable | `0.60.8.2` | ⚠️ outdated |
-| Void | `0.60.8.2` | ⚠️ outdated |
-| Alpine edge | `0.60.8.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.60.8.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for aspell lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:41:43Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:23:47Z._
